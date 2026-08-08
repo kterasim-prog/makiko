@@ -1,0 +1,113 @@
+:root{
+  --cream:#fff7ec;
+  --paper:#fffdf8;
+  --ink:#5a4a3a;
+  --ink-soft:#8a7a68;
+  --green:#8fce8f;
+  --green-d:#6bb56b;
+  --coral:#f6a89f;
+  --coral-d:#ef8b80;
+  --yellow:#ffd873;
+  --blue:#9fd4e6;
+  --blue-d:#7cc0d6;
+  --pink:#ffc2d2;
+  --line:#eadfce;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:"Hiragino Maru Gothic ProN","Rounded Mplus 1c","Yu Gothic",system-ui,sans-serif;
+  color:var(--ink);
+  background:var(--cream);
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:920px;margin:0 auto;padding:24px 18px 80px}
+
+/* ---- Header ---- */
+header{text-align:center;padding:28px 0 14px}
+.logo{
+  display:inline-block;position:relative;
+  background:var(--paper);
+  border:4px solid var(--ink);
+  border-radius:26px;
+  padding:16px 34px;
+  box-shadow:6px 6px 0 rgba(90,74,58,.14);
+}
+.logo h1{margin:0;font-size:clamp(26px,6vw,42px);letter-spacing:.04em}
+.logo .sub{font-size:13px;color:var(--ink-soft);margin-top:2px;letter-spacing:.2em}
+.today{margin-top:14px;font-size:14px;color:var(--ink-soft)}
+
+/* ---- Section ---- */
+section{margin-top:44px}
+.sec-title{
+  display:flex;align-items:center;gap:10px;
+  font-size:20px;margin:0 0 18px;
+}
+.sec-title::before{content:"";width:16px;height:16px;border-radius:50%;background:var(--coral);
+  box-shadow:0 0 0 4px var(--pink)}
+
+/* ---- Character cards ---- */
+.chars{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.card{
+  background:var(--paper);
+  border:3px solid var(--ink);
+  border-radius:22px;
+  padding:16px 16px 18px;
+  text-align:center;
+  box-shadow:4px 4px 0 rgba(90,74,58,.12);
+}
+.card svg{width:130px;height:130px;display:block;margin:0 auto 6px}
+.card .name{font-size:19px;font-weight:700}
+.card .kind{font-size:12px;color:var(--ink-soft);letter-spacing:.1em;margin-bottom:8px}
+.card .desc{font-size:13px;text-align:left;color:var(--ink);margin:0}
+.card .quote{
+  display:inline-block;margin-top:10px;font-size:12px;
+  background:var(--cream);border:2px dashed var(--line);border-radius:14px;
+  padding:4px 12px;color:var(--ink-soft)
+}
+
+/* ---- 4koma ---- */
+.strip-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.strip-head .stitle{font-size:17px;font-weight:700}
+.strip-head .sdate{font-size:13px;color:var(--ink-soft)}
+.strip{
+  display:grid;grid-template-columns:1fr 1fr;gap:14px;
+  background:var(--paper);border:3px solid var(--ink);border-radius:22px;padding:16px;
+  box-shadow:4px 4px 0 rgba(90,74,58,.12);
+}
+@media(max-width:520px){.strip{grid-template-columns:1fr}}
+.panel{position:relative;background:#fff;border:2px solid var(--ink);border-radius:14px;overflow:hidden;aspect-ratio:1/1}
+.panel .num{position:absolute;top:6px;left:8px;font-size:12px;color:var(--ink-soft);z-index:3}
+.panel svg{width:100%;height:100%;display:block}
+.bubble{
+  position:absolute;z-index:4;background:#fff;border:2px solid var(--ink);border-radius:14px;
+  padding:5px 10px;font-size:12px;max-width:74%;line-height:1.45;box-shadow:2px 2px 0 rgba(90,74,58,.1)
+}
+.bubble.tl{top:8px;left:26px}
+.bubble.tr{top:8px;right:8px}
+.bubble.bl{bottom:8px;left:8px}
+.bubble.br{bottom:8px;right:8px}
+.caption{grid-column:1/-1;text-align:center;font-size:13px;color:var(--ink-soft);margin-top:2px}
+
+/* ---- Archive ---- */
+.archive{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.ep{
+  display:block;text-decoration:none;color:var(--ink);
+  background:var(--paper);border:2px solid var(--ink);border-radius:16px;
+  padding:12px 14px;box-shadow:3px 3px 0 rgba(90,74,58,.1);
+  transition:transform .08s ease;
+}
+.ep:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 rgba(90,74,58,.12)}
+.ep .epno{font-size:12px;color:var(--coral-d);font-weight:700}
+.ep .eptitle{font-size:14px;font-weight:700;margin-top:2px}
+.ep .epdate{font-size:11px;color:var(--ink-soft);margin-top:4px}
+
+.note{
+  margin-top:28px;background:var(--paper);border:2px dashed var(--line);border-radius:18px;
+  padding:16px 18px;font-size:13px;color:var(--ink-soft)
+}
+.note b{color:var(--ink)}
+.backlink{display:inline-block;margin-bottom:8px;font-size:13px;color:var(--coral-d);text-decoration:none}
+.backlink:hover{text-decoration:underline}
+footer{text-align:center;margin-top:40px;font-size:12px;color:var(--ink-soft)}
