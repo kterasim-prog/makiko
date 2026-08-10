@@ -1,0 +1,67 @@
+<!--
+  キャラクター「ハロー」確定デザイン（2026-08-10 承認）
+  女の子。南の島（ハワイ）から来た、明るくフレンドリーなカメ。
+  トレードマーク: ピンクのハイビスカス（頭）、花のレイ、黄色いお腹＋ハート。
+  下の <div class="card"> はトップの「とうじょうじんぶつ」へそのまま貼り付け可。
+  4コマ用の各ポーズは、この配色（体#b4e07a / お腹#ffe08a / 花#f76fa0 / レイ複数色）を守って描くこと。
+-->
+
+<!-- ▼ キャラ紹介カード（index.html の .chars 内に追加） -->
+<div class="card">
+  <svg viewBox="0 0 180 180" aria-label="ハロー">
+    <ellipse cx="90" cy="160" rx="50" ry="9" fill="#000" opacity=".06"/>
+    <g fill="#b4e07a" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round">
+      <ellipse cx="70" cy="150" rx="13" ry="11"/>
+      <ellipse cx="110" cy="150" rx="13" ry="11"/>
+    </g>
+    <g fill="#b4e07a" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round">
+      <ellipse cx="46" cy="110" rx="13" ry="18" transform="rotate(-18 46 110)"/>
+      <ellipse cx="134" cy="110" rx="13" ry="18" transform="rotate(18 134 110)"/>
+    </g>
+    <path d="M46 120 Q42 78 90 78 Q138 78 134 120 Q134 148 90 148 Q46 148 46 120 Z"
+          fill="#b4e07a" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
+    <ellipse cx="90" cy="120" rx="26" ry="24" fill="#ffe08a" stroke="#5a4a3a" stroke-width="3.5"/>
+    <path d="M90 128 C86 122 79 123 79 129 C79 134 90 140 90 140 C90 140 101 134 101 129 C101 123 94 122 90 128 Z"
+          fill="#ef7b86" stroke="#d95f6a" stroke-width="1.5"/>
+    <g>
+      <path d="M64 92 Q90 106 116 92" fill="none" stroke="#c9a3e0" stroke-width="3"/>
+      <circle cx="64" cy="92" r="4.5" fill="#b58fd6" stroke="#5a4a3a" stroke-width="1.5"/>
+      <circle cx="76" cy="99" r="4.5" fill="#f6a0c0" stroke="#5a4a3a" stroke-width="1.5"/>
+      <circle cx="90" cy="102" r="4.5" fill="#ffd873" stroke="#5a4a3a" stroke-width="1.5"/>
+      <circle cx="104" cy="99" r="4.5" fill="#ef8b80" stroke="#5a4a3a" stroke-width="1.5"/>
+      <circle cx="116" cy="92" r="4.5" fill="#9fd4e6" stroke="#5a4a3a" stroke-width="1.5"/>
+    </g>
+    <circle cx="90" cy="58" r="26" fill="#b4e07a" stroke="#5a4a3a" stroke-width="4"/>
+    <circle cx="99" cy="56" r="3.2" fill="#5a4a3a"/>
+    <circle cx="81" cy="56" r="3.2" fill="#5a4a3a"/>
+    <path d="M83 65 q7 6 14 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="75" cy="63" r="4.5" fill="#f6a0b8" opacity=".75"/>
+    <circle cx="105" cy="63" r="4.5" fill="#f6a0b8" opacity=".75"/>
+    <g transform="translate(66,40)">
+      <g fill="#f76fa0" stroke="#5a4a3a" stroke-width="1.6">
+        <circle cx="0" cy="-7" r="6"/><circle cx="7" cy="-2" r="6"/>
+        <circle cx="4" cy="7" r="6"/><circle cx="-4" cy="7" r="6"/><circle cx="-7" cy="-2" r="6"/>
+      </g>
+      <circle cx="0" cy="0" r="3.4" fill="#ffd873" stroke="#5a4a3a" stroke-width="1.2"/>
+    </g>
+  </svg>
+  <div class="name">ハロー</div>
+  <div class="kind">みなみのしまのカメ ♀</div>
+  <p class="desc">南の島からやってきた、あかるくてフレンドリーな女の子。花のレイと頭のお花がトレードマーク。だれにでも「ハロー！」とごあいさつ。</p>
+  <div class="quote">「ハロー！　きょうもいい日ね」</div>
+</div>
+
+<!-- ▼ 4コマ用・簡易ポーズ（お腹＋顔だけの正面バスト。translate/scaleして使う） -->
+<!--
+<g transform="translate(0,0) scale(1)">
+  <path d="M46 120 Q42 78 90 78 Q138 78 134 120 Q134 148 90 148 Q46 148 46 120 Z" fill="#b4e07a" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="90" cy="120" rx="26" ry="24" fill="#ffe08a" stroke="#5a4a3a" stroke-width="3.5"/>
+  <path d="M64 92 Q90 106 116 92" fill="none" stroke="#c9a3e0" stroke-width="3"/>
+  <circle cx="64" cy="92" r="4.5" fill="#b58fd6" stroke="#5a4a3a" stroke-width="1.5"/><circle cx="76" cy="99" r="4.5" fill="#f6a0c0" stroke="#5a4a3a" stroke-width="1.5"/><circle cx="90" cy="102" r="4.5" fill="#ffd873" stroke="#5a4a3a" stroke-width="1.5"/><circle cx="104" cy="99" r="4.5" fill="#ef8b80" stroke="#5a4a3a" stroke-width="1.5"/><circle cx="116" cy="92" r="4.5" fill="#9fd4e6" stroke="#5a4a3a" stroke-width="1.5"/>
+  <circle cx="90" cy="58" r="26" fill="#b4e07a" stroke="#5a4a3a" stroke-width="4"/>
+  <circle cx="99" cy="56" r="3.2" fill="#5a4a3a"/><circle cx="81" cy="56" r="3.2" fill="#5a4a3a"/>
+  <path d="M83 65 q7 6 14 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="75" cy="63" r="4.5" fill="#f6a0b8" opacity=".75"/><circle cx="105" cy="63" r="4.5" fill="#f6a0b8" opacity=".75"/>
+  <g transform="translate(66,40)"><g fill="#f76fa0" stroke="#5a4a3a" stroke-width="1.6"><circle cx="0" cy="-7" r="6"/><circle cx="7" cy="-2" r="6"/><circle cx="4" cy="7" r="6"/><circle cx="-4" cy="7" r="6"/><circle cx="-7" cy="-2" r="6"/></g><circle cx="0" cy="0" r="3.4" fill="#ffd873" stroke="#5a4a3a" stroke-width="1.2"/></g>
+</g>
+-->
