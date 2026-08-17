@@ -3,177 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>巻亀のマキコさん</title>
-<link rel="stylesheet" href="style.css">
+<title>第9話「あめのあとの、にじ」｜巻亀のマキコさん</title>
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <div class="wrap">
-
   <header>
     <div class="logo">
       <h1>巻亀のマキコさん</h1>
       <div class="sub">M A K I K O　&amp;　F R I E N D S</div>
     </div>
-    <div class="today" id="today"></div>
   </header>
 
-  <!-- ================= キャラクター ================= -->
   <section>
-    <h2 class="sec-title">とうじょうじんぶつ</h2>
-    <div class="chars">
-
-      <!-- マキコさん -->
-      <div class="card">
-        <svg viewBox="0 0 180 180" aria-label="マキコさん">
-          <ellipse cx="90" cy="150" rx="52" ry="10" fill="#000" opacity=".06"/>
-          <g fill="#f2e4c9" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round">
-            <rect x="40" y="120" width="20" height="22" rx="9"/>
-            <rect x="120" y="120" width="20" height="22" rx="9"/>
-          </g>
-          <g>
-            <circle cx="140" cy="108" r="24" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="4"/>
-            <circle cx="147" cy="104" r="3" fill="#5a4a3a"/>
-            <circle cx="134" cy="104" r="3" fill="#5a4a3a"/>
-            <path d="M138 114 q6 5 12 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-            <circle cx="132" cy="112" r="4.5" fill="#f6a89f" opacity=".7"/>
-          </g>
-          <path d="M32 118 Q30 60 88 60 Q140 60 138 116 Z" fill="#8fce8f" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
-          <path d="M84 104 C84 96 96 96 96 106 C96 120 74 120 74 102 C74 80 106 80 106 108"
-                fill="none" stroke="#6bb56b" stroke-width="5" stroke-linecap="round"/>
-        </svg>
-        <div class="name">マキコさん</div>
-        <div class="kind">まきがめ ♀</div>
-        <p class="desc">主人公。のんびり屋でとっても優しい。甲羅が「くるん」と巻いているのが自慢。ロールケーキに目がない。</p>
-        <div class="quote">「まきまき〜、ゆっくりいこ」</div>
-      </div>
-
-      <!-- くるりん -->
-      <div class="card">
-        <svg viewBox="0 0 180 180" aria-label="くるりん">
-          <ellipse cx="90" cy="150" rx="46" ry="9" fill="#000" opacity=".06"/>
-          <g fill="#f2e4c9" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round">
-            <rect x="52" y="122" width="17" height="20" rx="8"/>
-            <rect x="112" y="122" width="17" height="20" rx="8"/>
-          </g>
-          <g>
-            <circle cx="128" cy="112" r="20" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="4"/>
-            <circle cx="134" cy="109" r="3.2" fill="#5a4a3a"/>
-            <circle cx="122" cy="109" r="3.2" fill="#5a4a3a"/>
-            <path d="M123 118 q5 5 10 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-          </g>
-          <path d="M46 120 Q46 72 90 72 Q132 72 130 118 Z" fill="#ffd873" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
-          <g fill="none" stroke="#e6b93f" stroke-width="3" stroke-linecap="round">
-            <path d="M74 92 l10 0 M88 100 l0 10 M96 92 l8 4"/>
-          </g>
-        </svg>
-        <div class="name">くるりん</div>
-        <div class="kind">こがめ ♂</div>
-        <p class="desc">元気いっぱいの子ガメ。マキコさんが大好きで、いつも後ろをついてくる。まだ甲羅が巻いてなくて憧れ中。</p>
-        <div class="quote">「ぼくもクルンってなりたい！」</div>
-      </div>
-
-      <!-- でんちゃん -->
-      <div class="card">
-        <svg viewBox="0 0 180 180" aria-label="でんちゃん">
-          <ellipse cx="92" cy="152" rx="50" ry="9" fill="#000" opacity=".06"/>
-          <path d="M40 140 Q34 118 60 116 L120 120 Q140 122 140 134 Q140 146 118 146 L54 148 Q40 148 40 140 Z"
-                fill="#f6e0c2" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
-          <g stroke="#5a4a3a" stroke-width="4" stroke-linecap="round">
-            <line x1="128" y1="122" x2="132" y2="100"/>
-            <line x1="118" y1="122" x2="112" y2="102"/>
-          </g>
-          <circle cx="133" cy="97" r="6" fill="#fff" stroke="#5a4a3a" stroke-width="3"/>
-          <circle cx="111" cy="99" r="6" fill="#fff" stroke="#5a4a3a" stroke-width="3"/>
-          <circle cx="133" cy="97" r="2.4" fill="#5a4a3a"/>
-          <circle cx="111" cy="99" r="2.4" fill="#5a4a3a"/>
-          <circle cx="80" cy="108" r="36" fill="#ffc2d2" stroke="#5a4a3a" stroke-width="4"/>
-          <path d="M80 108 C80 98 94 98 94 110 C94 128 66 128 66 106 C66 80 106 80 106 110"
-                fill="none" stroke="#ef8b80" stroke-width="5" stroke-linecap="round"/>
-        </svg>
-        <div class="name">でんちゃん</div>
-        <div class="kind">かたつむり ♀</div>
-        <p class="desc">マキコさんの親友。おっとりのんびり仲間で、二人でお茶するのが日課。同じ「巻き」を持つ心の友。</p>
-        <div class="quote">「まきどうし、なかよしね」</div>
-      </div>
-
-      <!-- ヤドじい -->
-      <div class="card">
-        <svg viewBox="0 0 180 180" aria-label="ヤドじい">
-          <ellipse cx="90" cy="152" rx="48" ry="9" fill="#000" opacity=".06"/>
-          <g fill="#f4b4a0" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round">
-            <path d="M120 128 q22 2 26 -14 q-4 -2 -8 2 q6 -8 -2 -10 q-4 8 -12 12 Z"/>
-            <rect x="66" y="130" width="14" height="16" rx="7"/>
-          </g>
-          <g>
-            <circle cx="118" cy="118" r="18" fill="#f4c1a8" stroke="#5a4a3a" stroke-width="4"/>
-            <line x1="118" y1="100" x2="118" y2="90" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-            <circle cx="118" cy="89" r="3.5" fill="#5a4a3a"/>
-            <circle cx="124" cy="116" r="2.8" fill="#5a4a3a"/>
-            <circle cx="112" cy="116" r="2.8" fill="#5a4a3a"/>
-            <path d="M112 124 q6 4 12 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-          </g>
-          <circle cx="76" cy="106" r="38" fill="#9fd4e6" stroke="#5a4a3a" stroke-width="4"/>
-          <path d="M76 106 C76 95 91 95 91 108 C91 127 61 127 61 104 C61 77 103 77 103 108"
-                fill="none" stroke="#7cc0d6" stroke-width="5" stroke-linecap="round"/>
-        </svg>
-        <div class="name">ヤドじい</div>
-        <div class="kind">やどかり ♂</div>
-        <p class="desc">近所の物知りおじいちゃん。巻貝のお家に住んでいる。困ったときはやさしく相談にのってくれる。</p>
-        <div class="quote">「まあ、あわてなさんな」</div>
-      </div>
-
-      <!-- ハロー -->
-      <div class="card">
-        <svg viewBox="0 0 180 180" aria-label="ハロー">
-          <ellipse cx="90" cy="160" rx="50" ry="9" fill="#000" opacity=".06"/>
-          <g fill="#b4e07a" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round">
-            <ellipse cx="70" cy="150" rx="13" ry="11"/>
-            <ellipse cx="110" cy="150" rx="13" ry="11"/>
-          </g>
-          <g fill="#b4e07a" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round">
-            <ellipse cx="46" cy="110" rx="13" ry="18" transform="rotate(-18 46 110)"/>
-            <ellipse cx="134" cy="110" rx="13" ry="18" transform="rotate(18 134 110)"/>
-          </g>
-          <path d="M46 120 Q42 78 90 78 Q138 78 134 120 Q134 148 90 148 Q46 148 46 120 Z"
-                fill="#b4e07a" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
-          <ellipse cx="90" cy="120" rx="26" ry="24" fill="#ffe08a" stroke="#5a4a3a" stroke-width="3.5"/>
-          <path d="M90 128 C86 122 79 123 79 129 C79 134 90 140 90 140 C90 140 101 134 101 129 C101 123 94 122 90 128 Z"
-                fill="#ef7b86" stroke="#d95f6a" stroke-width="1.5"/>
-          <path d="M64 92 Q90 106 116 92" fill="none" stroke="#c9a3e0" stroke-width="3"/>
-          <circle cx="64" cy="92" r="4.5" fill="#b58fd6" stroke="#5a4a3a" stroke-width="1.5"/>
-          <circle cx="76" cy="99" r="4.5" fill="#f6a0c0" stroke="#5a4a3a" stroke-width="1.5"/>
-          <circle cx="90" cy="102" r="4.5" fill="#ffd873" stroke="#5a4a3a" stroke-width="1.5"/>
-          <circle cx="104" cy="99" r="4.5" fill="#ef8b80" stroke="#5a4a3a" stroke-width="1.5"/>
-          <circle cx="116" cy="92" r="4.5" fill="#9fd4e6" stroke="#5a4a3a" stroke-width="1.5"/>
-          <circle cx="90" cy="58" r="26" fill="#b4e07a" stroke="#5a4a3a" stroke-width="4"/>
-          <circle cx="99" cy="56" r="3.2" fill="#5a4a3a"/>
-          <circle cx="81" cy="56" r="3.2" fill="#5a4a3a"/>
-          <path d="M83 65 q7 6 14 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-          <circle cx="75" cy="63" r="4.5" fill="#f6a0b8" opacity=".75"/>
-          <circle cx="105" cy="63" r="4.5" fill="#f6a0b8" opacity=".75"/>
-          <g transform="translate(66,40)">
-            <g fill="#f76fa0" stroke="#5a4a3a" stroke-width="1.6">
-              <circle cx="0" cy="-7" r="6"/><circle cx="7" cy="-2" r="6"/>
-              <circle cx="4" cy="7" r="6"/><circle cx="-4" cy="7" r="6"/><circle cx="-7" cy="-2" r="6"/>
-            </g>
-            <circle cx="0" cy="0" r="3.4" fill="#ffd873" stroke="#5a4a3a" stroke-width="1.2"/>
-          </g>
-        </svg>
-        <div class="name">ハロー</div>
-        <div class="kind">みなみのしまのカメ ♀</div>
-        <p class="desc">南の島からやってきた、あかるくてフレンドリーな女の子。花のレイと頭のお花がトレードマーク。だれにでも「ハロー！」とごあいさつ。</p>
-        <div class="quote">「ハロー！　きょうもいい日ね」</div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ================= 今日の4コマ ================= -->
-  <section>
-    <h2 class="sec-title">きょうの4コマ</h2>
+    <a class="backlink" href="../index.html">← トップ（きょうの4コマ）へ</a>
     <div class="strip-head">
-      <span class="stitle" id="strip-title">第9話「あめのあとの、にじ」</span>
-      <span class="sdate" id="strip-date"></span>
+      <span class="stitle">第9話「あめのあとの、にじ」</span>
+      <span class="sdate">2026年8月17日（月）</span>
     </div>
 
     <div class="strip">
@@ -388,69 +234,10 @@
 
       <div class="caption">〜 なきむしの そらも、あとで にじいろ 〜</div>
     </div>
-  </section>
-
-  <!-- ================= これまでのお話 ================= -->
-  <section>
-    <h2 class="sec-title">これまでのお話</h2>
-    <div class="archive" id="archive">
-      <a class="ep" href="strips/009-2026-08-17.html">
-        <span class="epno">第9話</span>
-        <div class="eptitle">あめのあとの、にじ</div>
-        <div class="epdate">2026年8月17日</div>
-      </a>
-      <a class="ep" href="strips/008-2026-08-16.html">
-        <span class="epno">第8話</span>
-        <div class="eptitle">ゆっくり、かきごおり</div>
-        <div class="epdate">2026年8月16日</div>
-      </a>
-      <a class="ep" href="strips/007-2026-08-14.html">
-        <span class="epno">第7話</span>
-        <div class="eptitle">ぽかぽか、ひなたぼっこ</div>
-        <div class="epdate">2026年8月14日</div>
-      </a>
-      <a class="ep" href="strips/006-2026-08-13.html">
-        <span class="epno">第6話</span>
-        <div class="eptitle">くるりんと、おおきなすいか</div>
-        <div class="epdate">2026年8月13日</div>
-      </a>
-      <a class="ep" href="strips/005-2026-08-12.html">
-        <span class="epno">第5話</span>
-        <div class="eptitle">まきまきの、なつのひかげ</div>
-        <div class="epdate">2026年8月12日</div>
-      </a>
-      <a class="ep" href="strips/004-2026-08-11.html">
-        <span class="epno">第4話</span>
-        <div class="eptitle">ハロー、みなみのしまから</div>
-        <div class="epdate">2026年8月11日</div>
-      </a>
-      <a class="ep" href="strips/003-2026-08-10.html">
-        <span class="epno">第3話</span>
-        <div class="eptitle">かぜさんのおくりもの</div>
-        <div class="epdate">2026年8月10日</div>
-      </a>
-      <a class="ep" href="strips/002-2026-08-09.html">
-        <span class="epno">第2話</span>
-        <div class="eptitle">まんまる、いただきます</div>
-        <div class="epdate">2026年8月9日</div>
-      </a>
-      <a class="ep" href="strips/001-2026-08-08.html">
-        <span class="epno">第1話</span>
-        <div class="eptitle">くるん、にあこがれて</div>
-        <div class="epdate">2026年8月8日</div>
-      </a>
-    </div>
+    <a class="backlink" href="../index.html" style="margin-top:14px">← トップ（きょうの4コマ）へ</a>
   </section>
 
   <footer>巻亀のマキコさん — こんがらがっち劇場風・ほのぼの4コマ</footer>
 </div>
-
-<script>
-  const days=["日","月","火","水","木","金","土"];
-  const d=new Date();
-  const label=`${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${days[d.getDay()]}）`;
-  document.getElementById("today").textContent=label;
-  document.getElementById("strip-date").textContent="2026年8月17日（月）";
-</script>
 </body>
 </html>
