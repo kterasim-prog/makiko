@@ -172,7 +172,7 @@
   <section>
     <h2 class="sec-title">きょうの4コマ</h2>
     <div class="strip-head">
-      <span class="stitle" id="strip-title">第11話「くるりんと、せみのぬけがら」</span>
+      <span class="stitle" id="strip-title">第12話「くるりんと、あさがおのひみつ」</span>
       <span class="sdate" id="strip-date"></span>
     </div>
 
@@ -181,41 +181,39 @@
       <div class="panel">
         <span class="num">1</span>
         <svg viewBox="0 0 200 200">
-          <rect width="200" height="200" fill="#cfe9f7"/>
+          <rect width="200" height="200" fill="#cfe8f9"/>
           <rect y="150" width="200" height="50" fill="#bfe3a0"/>
-          <ellipse cx="90" cy="192" rx="90" ry="9" fill="#a8d488"/>
-          <!-- tree -->
-          <path d="M160 200 L160 46 Q160 24 176 24 Q192 24 192 46 L192 200 Z" fill="#b78a58" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
-          <path d="M166 200 L166 50 M182 200 L182 50" stroke="#9c6f42" stroke-width="2" stroke-linecap="round" opacity=".6"/>
-          <g fill="#8fce8f" stroke="#5a4a3a" stroke-width="3" stroke-linejoin="round">
-            <circle cx="176" cy="20" r="22"/>
-            <circle cx="152" cy="30" r="15"/>
-            <circle cx="198" cy="30" r="15"/>
+          <ellipse cx="100" cy="192" rx="90" ry="9" fill="#a8d488"/>
+          <!-- trellis -->
+          <g stroke="#b78a58" stroke-width="4" stroke-linecap="round">
+            <line x1="150" y1="200" x2="150" y2="30"/>
+            <line x1="182" y1="200" x2="182" y2="30"/>
           </g>
-          <!-- semi no nukegara -->
-          <g transform="translate(176,118)">
-            <ellipse cx="0" cy="6" rx="12" ry="18" fill="#cba173" stroke="#5a4a3a" stroke-width="3" stroke-linejoin="round"/>
-            <path d="M-7 -10 Q0 -17 7 -10" fill="none" stroke="#5a4a3a" stroke-width="2" stroke-linecap="round"/>
-            <g stroke="#5a4a3a" stroke-width="2" stroke-linecap="round" fill="none">
-              <path d="M-12 -2 Q-20 -5 -23 -1"/>
-              <path d="M-12 8 Q-20 8 -22 12"/>
-              <path d="M-11 16 Q-18 19 -20 24"/>
-              <path d="M12 -2 Q20 -5 23 -1"/>
-              <path d="M12 8 Q20 8 22 12"/>
-              <path d="M11 16 Q18 19 20 24"/>
-            </g>
+          <!-- vine -->
+          <path d="M150 200 Q140 140 158 100 Q172 66 152 30" fill="none" stroke="#7ab55a" stroke-width="3.5" stroke-linecap="round"/>
+          <!-- leaves -->
+          <g fill="#7ab55a" stroke="#5a4a3a" stroke-width="2.5" stroke-linejoin="round">
+            <path d="M146 150 Q134 142 140 130 Q148 124 154 132 Q156 144 146 150 Z"/>
+            <path d="M164 96 Q152 90 156 78 Q164 72 170 80 Q172 92 164 96 Z"/>
           </g>
-          <!-- kururin, amazed -->
-          <g transform="translate(6,108) scale(.62)">
+          <!-- closed (wilted) asagao -->
+          <g transform="translate(152,116)">
+            <path d="M0 -16 Q6 -14 6 -4 Q6 6 0 14 Q-6 6 -6 -4 Q-6 -14 0 -16 Z" fill="#8a7fd4" stroke="#5a4a3a" stroke-width="2.5" stroke-linejoin="round"/>
+          </g>
+          <g transform="translate(168,140) scale(.85)">
+            <path d="M0 -16 Q6 -14 6 -4 Q6 6 0 14 Q-6 6 -6 -4 Q-6 -14 0 -16 Z" fill="#a996e0" stroke="#5a4a3a" stroke-width="2.5" stroke-linejoin="round"/>
+          </g>
+          <!-- kururin, sad -->
+          <g transform="translate(14,102) scale(.66)">
             <rect x="8" y="52" width="14" height="16" rx="7" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
             <rect x="52" y="52" width="14" height="16" rx="7" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
-            <circle cx="66" cy="42" r="17" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="3.5"/>
-            <circle cx="72" cy="36" r="3.4" fill="#5a4a3a"/><circle cx="61" cy="36" r="3.4" fill="#5a4a3a"/>
-            <ellipse cx="66" cy="48" rx="3.5" ry="4.5" fill="#5a4a3a"/>
+            <circle cx="66" cy="44" r="17" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="3.5"/>
+            <path d="M58 41 l6 2 M69 41 l6 2" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
+            <path d="M60 52 q6 -3 12 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
             <path d="M2 54 Q2 12 40 12 Q76 12 74 52 Z" fill="#ffd873" stroke="#5a4a3a" stroke-width="3.5" stroke-linejoin="round"/>
           </g>
         </svg>
-        <div class="bubble tl">わっ、これなに!?</div>
+        <div class="bubble tl">あさがお、<br>みんな しぼんじゃってる…</div>
       </div>
 
       <!-- panel 2 -->
@@ -225,55 +223,34 @@
           <rect width="200" height="200" fill="#d7edf9"/>
           <rect y="150" width="200" height="50" fill="#c3e6a4"/>
           <ellipse cx="100" cy="192" rx="90" ry="9" fill="#abd88b"/>
-          <!-- tree -->
-          <path d="M160 200 L160 46 Q160 24 176 24 Q192 24 192 46 L192 200 Z" fill="#b78a58" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
-          <g fill="#8fce8f" stroke="#5a4a3a" stroke-width="3" stroke-linejoin="round">
-            <circle cx="176" cy="20" r="22"/>
-            <circle cx="152" cy="30" r="15"/>
-            <circle cx="198" cy="30" r="15"/>
-          </g>
-          <!-- semi no nukegara -->
-          <g transform="translate(176,118)">
-            <ellipse cx="0" cy="6" rx="12" ry="18" fill="#cba173" stroke="#5a4a3a" stroke-width="3" stroke-linejoin="round"/>
-            <path d="M-7 -10 Q0 -17 7 -10" fill="none" stroke="#5a4a3a" stroke-width="2" stroke-linecap="round"/>
-            <g stroke="#5a4a3a" stroke-width="2" stroke-linecap="round" fill="none">
-              <path d="M-12 -2 Q-20 -5 -23 -1"/>
-              <path d="M-12 8 Q-20 8 -22 12"/>
-              <path d="M-11 16 Q-18 19 -20 24"/>
-              <path d="M12 -2 Q20 -5 23 -1"/>
-              <path d="M12 8 Q20 8 22 12"/>
-              <path d="M11 16 Q18 19 20 24"/>
+          <!-- denchan, arriving, gentle -->
+          <g transform="translate(112,86) scale(.62)">
+            <ellipse cx="92" cy="152" rx="50" ry="9" fill="#000" opacity=".06"/>
+            <path d="M40 140 Q34 118 60 116 L120 120 Q140 122 140 134 Q140 146 118 146 L54 148 Q40 148 40 140 Z"
+                  fill="#f6e0c2" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
+            <g stroke="#5a4a3a" stroke-width="4" stroke-linecap="round">
+              <line x1="128" y1="122" x2="132" y2="100"/>
+              <line x1="118" y1="122" x2="112" y2="102"/>
             </g>
+            <circle cx="133" cy="97" r="6" fill="#fff" stroke="#5a4a3a" stroke-width="3"/>
+            <circle cx="111" cy="99" r="6" fill="#fff" stroke="#5a4a3a" stroke-width="3"/>
+            <circle cx="133" cy="97" r="2.4" fill="#5a4a3a"/>
+            <circle cx="111" cy="99" r="2.4" fill="#5a4a3a"/>
+            <circle cx="80" cy="108" r="36" fill="#ffc2d2" stroke="#5a4a3a" stroke-width="4"/>
+            <path d="M80 108 C80 98 94 98 94 110 C94 128 66 128 66 106 C66 80 106 80 106 110"
+                  fill="none" stroke="#ef8b80" stroke-width="5" stroke-linecap="round"/>
           </g>
-          <!-- yadojii, explaining -->
-          <g transform="translate(10,92) scale(.6)">
-            <g fill="#f4b4a0" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round">
-              <path d="M120 128 q22 2 26 -14 q-4 -2 -8 2 q6 -8 -2 -10 q-4 8 -12 12 Z"/>
-              <rect x="66" y="130" width="14" height="16" rx="7"/>
-            </g>
-            <g>
-              <circle cx="118" cy="118" r="18" fill="#f4c1a8" stroke="#5a4a3a" stroke-width="4"/>
-              <line x1="118" y1="100" x2="118" y2="90" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-              <circle cx="118" cy="89" r="3.5" fill="#5a4a3a"/>
-              <circle cx="124" cy="116" r="2.8" fill="#5a4a3a"/>
-              <circle cx="112" cy="116" r="2.8" fill="#5a4a3a"/>
-              <path d="M112 124 q6 4 12 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-            </g>
-            <circle cx="76" cy="106" r="38" fill="#9fd4e6" stroke="#5a4a3a" stroke-width="4"/>
-            <path d="M76 106 C76 95 91 95 91 108 C91 127 61 127 61 104 C61 77 103 77 103 108"
-                  fill="none" stroke="#7cc0d6" stroke-width="5" stroke-linecap="round"/>
-          </g>
-          <!-- kururin, listening -->
-          <g transform="translate(118,112) scale(.5)">
+          <!-- kururin, explaining sadly -->
+          <g transform="translate(10,108) scale(.6)">
             <rect x="8" y="52" width="14" height="16" rx="7" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
             <rect x="52" y="52" width="14" height="16" rx="7" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
-            <circle cx="66" cy="42" r="17" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="3.5"/>
-            <circle cx="72" cy="39" r="3.4" fill="#5a4a3a"/><circle cx="61" cy="39" r="3.4" fill="#5a4a3a"/>
-            <path d="M62 47 q5 5 10 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="66" cy="44" r="17" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="3.5"/>
+            <path d="M58 41 l6 2 M69 41 l6 2" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
+            <path d="M60 52 q6 -3 12 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
             <path d="M2 54 Q2 12 40 12 Q76 12 74 52 Z" fill="#ffd873" stroke="#5a4a3a" stroke-width="3.5" stroke-linejoin="round"/>
           </g>
         </svg>
-        <div class="bubble tl">せみが そらへ<br>とびたった あとの<br>ぬけがらじゃよ</div>
+        <div class="bubble tl">けさ ねぼうしちゃって、<br>さくとこ みれなかったの…</div>
       </div>
 
       <!-- panel 3 -->
@@ -283,67 +260,74 @@
           <rect width="200" height="200" fill="#eaf6ff"/>
           <rect y="155" width="200" height="45" fill="#c9e8ab"/>
           <ellipse cx="100" cy="194" rx="92" ry="9" fill="#b0dd90"/>
-          <!-- kururin, worried -->
-          <g transform="translate(30,108) scale(.62)">
+          <!-- denchan, smiling, explaining -->
+          <g transform="translate(55,42) scale(.92)">
+            <ellipse cx="92" cy="152" rx="50" ry="9" fill="#000" opacity=".06"/>
+            <path d="M40 140 Q34 118 60 116 L120 120 Q140 122 140 134 Q140 146 118 146 L54 148 Q40 148 40 140 Z"
+                  fill="#f6e0c2" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
+            <g stroke="#5a4a3a" stroke-width="4" stroke-linecap="round">
+              <line x1="128" y1="122" x2="132" y2="100"/>
+              <line x1="118" y1="122" x2="112" y2="102"/>
+            </g>
+            <circle cx="133" cy="97" r="6" fill="#fff" stroke="#5a4a3a" stroke-width="3"/>
+            <circle cx="111" cy="99" r="6" fill="#fff" stroke="#5a4a3a" stroke-width="3"/>
+            <circle cx="133" cy="97" r="2.4" fill="#5a4a3a"/>
+            <circle cx="111" cy="99" r="2.4" fill="#5a4a3a"/>
+            <circle cx="80" cy="108" r="36" fill="#ffc2d2" stroke="#5a4a3a" stroke-width="4"/>
+            <path d="M80 108 C80 98 94 98 94 110 C94 128 66 128 66 106 C66 80 106 80 106 110"
+                  fill="none" stroke="#ef8b80" stroke-width="5" stroke-linecap="round"/>
+          </g>
+          <!-- kururin, listening (small, corner) -->
+          <g transform="translate(2,140) scale(.42)">
             <rect x="8" y="52" width="14" height="16" rx="7" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
             <rect x="52" y="52" width="14" height="16" rx="7" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
-            <circle cx="66" cy="44" r="17" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="3.5"/>
-            <path d="M58 41 l6 2 M69 41 l6 2" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-            <path d="M60 52 q6 -3 12 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="66" cy="42" r="17" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="3.5"/>
+            <circle cx="72" cy="39" r="3.4" fill="#5a4a3a"/><circle cx="61" cy="39" r="3.4" fill="#5a4a3a"/>
+            <path d="M62 47 q5 5 10 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
             <path d="M2 54 Q2 12 40 12 Q76 12 74 52 Z" fill="#ffd873" stroke="#5a4a3a" stroke-width="3.5" stroke-linejoin="round"/>
           </g>
-          <!-- yadojii, gentle -->
-          <g transform="translate(108,96) scale(.56)">
-            <g fill="#f4b4a0" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round">
-              <path d="M120 128 q22 2 26 -14 q-4 -2 -8 2 q6 -8 -2 -10 q-4 8 -12 12 Z"/>
-              <rect x="66" y="130" width="14" height="16" rx="7"/>
-            </g>
-            <g>
-              <circle cx="118" cy="118" r="18" fill="#f4c1a8" stroke="#5a4a3a" stroke-width="4"/>
-              <line x1="118" y1="100" x2="118" y2="90" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-              <circle cx="118" cy="89" r="3.5" fill="#5a4a3a"/>
-              <circle cx="124" cy="116" r="2.8" fill="#5a4a3a"/>
-              <circle cx="112" cy="116" r="2.8" fill="#5a4a3a"/>
-              <path d="M112 124 q6 4 12 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-            </g>
-            <circle cx="76" cy="106" r="38" fill="#9fd4e6" stroke="#5a4a3a" stroke-width="4"/>
-            <path d="M76 106 C76 95 91 95 91 108 C91 127 61 127 61 104 C61 77 103 77 103 108"
-                  fill="none" stroke="#7cc0d6" stroke-width="5" stroke-linecap="round"/>
-          </g>
         </svg>
-        <div class="bubble tr">ぼくのこうらも、<br>いつか ぬぐのかな…</div>
+        <div class="bubble tr">あさがおはね、<br>まいあさ あたらしい<br>はなが さくのよ</div>
       </div>
 
       <!-- panel 4 -->
       <div class="panel">
         <span class="num">4</span>
         <svg viewBox="0 0 200 200">
-          <rect width="200" height="200" fill="#fff4d6"/>
+          <rect width="200" height="200" fill="#ffe3c2"/>
           <rect y="155" width="200" height="45" fill="#d8ecd6"/>
           <ellipse cx="100" cy="194" rx="92" ry="9" fill="#c3ddc0"/>
           <!-- sun -->
-          <g transform="translate(28,28)">
-            <circle r="14" fill="#ffd873" stroke="#5a4a3a" stroke-width="3"/>
+          <g transform="translate(172,30)">
+            <circle r="16" fill="#ffd873" stroke="#5a4a3a" stroke-width="3"/>
             <g stroke="#ffd873" stroke-width="3" stroke-linecap="round">
-              <line x1="0" y1="-24" x2="0" y2="-19"/>
-              <line x1="17" y1="-17" x2="13" y2="-13"/>
-              <line x1="24" y1="0" x2="19" y2="0"/>
-              <line x1="-17" y1="-17" x2="-13" y2="-13"/>
+              <line x1="0" y1="-26" x2="0" y2="-21"/>
+              <line x1="-18" y1="-18" x2="-14" y2="-14"/>
+              <line x1="-26" y1="0" x2="-21" y2="0"/>
             </g>
           </g>
-          <!-- makiko, warm answer -->
-          <g transform="translate(90,86) scale(.62)">
-            <rect x="30" y="52" width="16" height="18" rx="8" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
-            <rect x="86" y="52" width="16" height="18" rx="8" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
-            <circle cx="100" cy="42" r="19" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="3.5"/>
-            <circle cx="106" cy="38" r="3" fill="#5a4a3a"/><circle cx="95" cy="38" r="3" fill="#5a4a3a"/>
-            <path d="M96 48 q6 5 12 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
-            <circle cx="92" cy="46" r="4" fill="#f6a89f" opacity=".7"/>
-            <path d="M22 56 Q20 8 66 8 Q108 8 106 54 Z" fill="#8fce8f" stroke="#5a4a3a" stroke-width="3.5" stroke-linejoin="round"/>
-            <path d="M60 42 C60 34 72 34 72 44 C72 58 50 58 50 40 C50 20 82 20 82 46" fill="none" stroke="#6bb56b" stroke-width="4.5" stroke-linecap="round"/>
+          <!-- trellis with fresh blooming flowers -->
+          <g stroke="#b78a58" stroke-width="4" stroke-linecap="round">
+            <line x1="30" y1="200" x2="30" y2="40"/>
+            <line x1="62" y1="200" x2="62" y2="40"/>
           </g>
-          <!-- kururin, relieved and happy -->
-          <g transform="translate(18,112) scale(.62)">
+          <path d="M30 200 Q22 140 40 100 Q54 66 32 40" fill="none" stroke="#7ab55a" stroke-width="3.5" stroke-linecap="round"/>
+          <g fill="#7ab55a" stroke="#5a4a3a" stroke-width="2.5" stroke-linejoin="round">
+            <path d="M28 150 Q16 142 22 130 Q30 124 36 132 Q38 144 28 150 Z"/>
+          </g>
+          <!-- blooming asagao (open, star pattern) -->
+          <g transform="translate(30,78)">
+            <path d="M0 -14 C8 -14 14 -8 14 0 C14 8 8 14 0 14 C-8 14 -14 8 -14 0 C-14 -8 -8 -14 0 -14 Z" fill="#8a7fd4" stroke="#5a4a3a" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M0 -14 L0 14 M-14 0 L14 0 M-10 -10 L10 10 M-10 10 L10 -10" stroke="#fff" stroke-width="1.3" opacity=".55"/>
+            <circle cx="0" cy="0" r="3" fill="#fff5b0"/>
+          </g>
+          <g transform="translate(50,86) scale(.8)">
+            <path d="M0 -14 C8 -14 14 -8 14 0 C14 8 8 14 0 14 C-8 14 -14 8 -14 0 C-14 -8 -8 -14 0 -14 Z" fill="#a4d8f0" stroke="#5a4a3a" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M0 -14 L0 14 M-14 0 L14 0 M-10 -10 L10 10 M-10 10 L10 -10" stroke="#fff" stroke-width="1.3" opacity=".55"/>
+            <circle cx="0" cy="0" r="3" fill="#fff5b0"/>
+          </g>
+          <!-- kururin, delighted -->
+          <g transform="translate(78,104) scale(.6)">
             <rect x="8" y="52" width="14" height="16" rx="7" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
             <rect x="52" y="52" width="14" height="16" rx="7" fill="#f2e4c9" stroke="#5a4a3a" stroke-width="3.5"/>
             <circle cx="66" cy="42" r="17" fill="#f4e7cd" stroke="#5a4a3a" stroke-width="3.5"/>
@@ -351,11 +335,28 @@
             <path d="M62 47 q5 4 10 0" fill="none" stroke="#5a4a3a" stroke-width="3" stroke-linecap="round"/>
             <path d="M2 54 Q2 12 40 12 Q76 12 74 52 Z" fill="#ffd873" stroke="#5a4a3a" stroke-width="3.5" stroke-linejoin="round"/>
           </g>
+          <!-- denchan, happy -->
+          <g transform="translate(122,84) scale(.62)">
+            <ellipse cx="92" cy="152" rx="50" ry="9" fill="#000" opacity=".06"/>
+            <path d="M40 140 Q34 118 60 116 L120 120 Q140 122 140 134 Q140 146 118 146 L54 148 Q40 148 40 140 Z"
+                  fill="#f6e0c2" stroke="#5a4a3a" stroke-width="4" stroke-linejoin="round"/>
+            <g stroke="#5a4a3a" stroke-width="4" stroke-linecap="round">
+              <line x1="128" y1="122" x2="132" y2="100"/>
+              <line x1="118" y1="122" x2="112" y2="102"/>
+            </g>
+            <circle cx="133" cy="97" r="6" fill="#fff" stroke="#5a4a3a" stroke-width="3"/>
+            <circle cx="111" cy="99" r="6" fill="#fff" stroke="#5a4a3a" stroke-width="3"/>
+            <circle cx="133" cy="97" r="2.4" fill="#5a4a3a"/>
+            <circle cx="111" cy="99" r="2.4" fill="#5a4a3a"/>
+            <circle cx="80" cy="108" r="36" fill="#ffc2d2" stroke="#5a4a3a" stroke-width="4"/>
+            <path d="M80 108 C80 98 94 98 94 110 C94 128 66 128 66 106 C66 80 106 80 106 110"
+                  fill="none" stroke="#ef8b80" stroke-width="5" stroke-linecap="round"/>
+          </g>
         </svg>
-        <div class="bubble tr">くるりんのおうちは、<br>うまれたときから<br>ぴったりよ</div>
+        <div class="bubble tl">わあ、きょうの あさがお<br>まんかい!</div>
       </div>
 
-      <div class="caption">〜 じぶんのおうちは、はじめから ぴったり 〜</div>
+      <div class="caption">〜 あしたの あさにも、あたらしい はなが まっている 〜</div>
     </div>
   </section>
 
@@ -363,6 +364,11 @@
   <section>
     <h2 class="sec-title">これまでのお話</h2>
     <div class="archive" id="archive">
+      <a class="ep" href="strips/012-2026-08-20.html">
+        <span class="epno">第12話</span>
+        <div class="eptitle">くるりんと、あさがおのひみつ</div>
+        <div class="epdate">2026年8月20日</div>
+      </a>
       <a class="ep" href="strips/011-2026-08-19.html">
         <span class="epno">第11話</span>
         <div class="eptitle">くるりんと、せみのぬけがら</div>
@@ -429,7 +435,7 @@
   const d=new Date();
   const label=`${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${days[d.getDay()]}）`;
   document.getElementById("today").textContent=label;
-  document.getElementById("strip-date").textContent="2026年8月19日（水）";
+  document.getElementById("strip-date").textContent="2026年8月20日（木）";
 </script>
 </body>
 </html>
